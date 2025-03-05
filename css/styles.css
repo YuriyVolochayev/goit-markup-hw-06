@@ -263,14 +263,8 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .mobile-menu-navigation-link:hover,
-.mobile-menu-navigation-link:focus,
-.mobile-menu-contact-link:hover,
-.mobile-menu-contact-link:focus {
-  color: #404bbf;
-} */
+
 .mobile-menu-navigation-link.mobile-menu-nav-current-link {
   color: #404bbf;
 }
@@ -291,7 +285,6 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #434455;
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .mobile-menu-contact-link.mobile-menu-contact-current-link {
@@ -317,3 +310,7 @@ button {
 .mobile-menu-socnet-icon {
   fill: #f4f4fd;
 }
+
+/* MAIN*/
+
+/*FIRS SECTION HERO*/
