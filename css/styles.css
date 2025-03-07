@@ -556,3 +556,101 @@ button {
 }
 
 /*THRD SECTION*/
+.thrd-section {
+  background-color: #f4f4fd;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.title {
+  margin: 0 auto;
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+.title-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 72px;
+}
+.title-item {
+  width: ((100%-72)/4);
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.team-container {
+  padding: 32px 0;
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  text-align: center;
+  color: #2e2f42;
+}
+.title-item .subtitle,
+.title-item .text {
+  text-align: center;
+}
+.title-item .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  color: #434455;
+}
+.title-list .title-item {
+  background-color: #fff;
+}
+.team-icon-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.team-socnet-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+}
+.team-socnet-link-icon {
+  fill: #f4f4fd;
+}
+@media screen and (min-width: 768px) {
+  .title-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .thrd-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .title-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+  .team-socnet-link {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .team-socnet-link:hover,
+  .team-socnet-link:focus {
+    background-color: #404bbf;
+  }
+}
