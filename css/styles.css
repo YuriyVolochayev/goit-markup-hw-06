@@ -213,8 +213,7 @@ button {
   visibility: visible;
   pointer-events: auto;
 }
-.container {
-}
+
 .mobile-menu-container {
   position: relative;
   padding-top: 72px;
@@ -253,8 +252,7 @@ button {
   display: flex;
   flex-direction: column;
 }
-.mobile-menu-nav-item {
-}
+
 .mobile-menu-navigation-link {
   display: block;
   padding-bottom: 40px;
@@ -268,14 +266,12 @@ button {
 .mobile-menu-navigation-link.mobile-menu-nav-current-link {
   color: #404bbf;
 }
-.mobile-menu-address {
-}
+
 .mobile-menu-contact-list {
   display: block;
   margin-bottom: 48px;
 }
-.mobile-menu-contact-item {
-}
+
 .mobile-menu-contact-link {
   font: 500 20px / 120% 'Roboto', sans-serif;
   display: block;
@@ -296,8 +292,7 @@ button {
   justify-content: center;
   gap: 40px;
 }
-.mobile-menu-socnet-item {
-}
+
 .mobile-menu-socnet-link {
   display: flex;
   align-items: center;
@@ -467,7 +462,7 @@ button {
   display: none;
 }
 
-.subtitle {
+.advant-subtitle {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -480,7 +475,7 @@ button {
 .advant-item {
   width: 100%;
 }
-.text {
+.advant-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -503,7 +498,7 @@ button {
     display: none;
   }
 
-  .subtitle {
+  .advant-subtitle {
     text-align: left;
   }
 
@@ -541,7 +536,7 @@ button {
     display: grid;
   }
 
-  .subtitle {
+  .advant-subtitle {
     font-size: 20px;
     line-height: 1.2;
     margin-bottom: 8px;
@@ -550,7 +545,7 @@ button {
   .advant-item {
     width: calc((100% - 72px) / 4);
   }
-  .text {
+  .advant-text {
     font-weight: 400;
   }
 }
