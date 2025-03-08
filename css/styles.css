@@ -755,3 +755,111 @@ button {
     transform: translateY(0);
   }
 }
+
+/*FOOTER*/
+.page-footer {
+  background-color: #2e2f42;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding-left: 102px;
+  padding-right: 102px;
+}
+
+.logo-footer .logo-part {
+  color: #f4f4fd;
+}
+.page-footer .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
+  color: #f4f4fd;
+  max-width: 264px;
+}
+
+.social-media-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.social-media-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 78px;
+}
+.social-media-item {
+  width: 40px;
+  height: 40px;
+}
+.social-media-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+}
+.social-media-link-icon {
+  fill: #f4f4fd;
+}
+.submit-wrap-text {
+  font-weight: 500;
+  margin-bottom: 16px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.submit-footer-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.footer-form-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 288px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  opacity: 0.3;
+  background-color: transparent;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding-left: 16px;
+  font-size: 12px;
+  line-height: 2;
+}
+.footer-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border: none;
+}
+
+.footer-form-icon {
+  fill: #fff;
+  margin-left: 16px;
+}
