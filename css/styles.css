@@ -868,9 +868,9 @@ button {
     padding: 0;
   }
   .footer-conteiner {
+    width: 768px;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
   }
   .logo-footer-wrap {
@@ -914,7 +914,9 @@ button {
 
   .footer-conteiner {
     display: flex;
+    justify-content: center;
     align-items: baseline;
+    width: 1440px;
   }
 
   .logo-footer-wrap {
