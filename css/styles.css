@@ -761,8 +761,10 @@ button {
   margin-bottom: 72px;
 }
 .logo-footer {
+  width: 100%;
   display: inline-block;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .logo-footer .logo-part {
@@ -863,6 +865,7 @@ button {
 }
 @media screen and (min-width: 768px) {
   .logo-footer {
+    text-align: left;
     padding: 0;
   }
   .footer-conteiner {
